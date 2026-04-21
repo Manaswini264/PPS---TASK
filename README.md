@@ -58,14 +58,31 @@ Takes input for:
 
 
 Total number of beds
+
 Daily admissions
+
 Daily discharges
+
+
 Calculates net occupancy change
+
+
 Determines availability status:
+
+
 Available
+
+
 Limited
+
+
 Critical Shortage
+
+
 Displays alerts for high occupancy
+
+
+
 Helps in hospital resource planning
 
 
