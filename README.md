@@ -1,59 +1,49 @@
-# PPS---TASK
- Description
+PPS-TASK (Programming and Problem Solving through Python)
 
-This project consists of three independent Python-based applications designed to solve real-world problems in different domains:
+This project consists of three Python programs designed to solve real-world problems in retail, healthcare, and education using basic programming concepts.
 
- 1.Hospital Bed Availability System
- 2.Student Performance Analyzer
- 3.Grocery Bill Estimator
+TASK-1: Grocery Bill Estimator
 
-Each system focuses on automation, accuracy, and efficiency using simple logic and structured programming techniques.
+This Python program calculates the total grocery bill including discounts and tax.
 
-Objectives
-Apply Python programming to real-life scenarios
-Reduce manual effort and human error
-Build simple, modular, and reusable systems
-Demonstrate problem-solving across multiple domains
+🚀 Features
 
- Features
-1. Hospital Bed Availability System
-Tracks admissions and discharges
-Calculates net occupancy changes
-Predicts bed availability status (Available / Limited / Critical)
-Handles multiple scenarios (normal, overload, decreasing load)
-Provides alerts for critical situations
-
-2. Student Performance Analyzer
-Classifies students into categories (Fail, Average, Good, Excellent)
-Supports multiple student inputs
-Generates performance summaries
-Identifies weak and high-performing students
-Easy to extend for ranking and grading
-
-3. Grocery Bill Estimator
 Accepts multiple item prices
-Calculates total cost automatically
-Applies discount based on conditions
+Calculates total amount
+Applies discount based on total
 Adds tax to final amount
 Displays formatted bill summary
 Handles invalid inputs and limits
+TASK-2: Hospital Bed Availability System
 
-Technologies Used:
-1.Python
-2.Lists and Dictionaries
-3.Functions and Modular Programming
-4.Conditional Statements and Loops
+This is a Python program that analyzes hospital admissions and discharges to determine bed availability status.
 
+🚀 Features
 
-Applications:
-Healthcare resource management
-Educational performance tracking
-Retail and billing systems
-Data analysis and automation tasks
+Takes input for:
+Total number of beds
+Daily admissions
+Daily discharges
+Calculates net occupancy change
+Determines availability status:
+Available
+Limited
+Critical Shortage
+Displays alerts for high occupancy
+Helps in hospital resource planning
+TASK-3: Student Performance Analyzer
 
-Limitations:
-Console-based implementation
-No database or persistent storage
-Uses fixed rules and assumptions
-Limited scalability in current form
+This is a simple Python program that classifies student performance based on their marks.
+
+🚀 Features
+
+Takes input for multiple students
+Classifies performance into categories:
+Fail
+Average
+Good
+Excellent
+Outputs a clear message for each student
+Helps identify weak and high-performing students
+Easy to extend for ranking and grading
  
