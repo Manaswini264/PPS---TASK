@@ -1,0 +1,28 @@
+def classify_marks(marks):
+    if marks < 40:
+        return 0
+    elif marks < 60:
+        return 1
+    elif marks < 80:
+        return 2
+    else:
+        return 3
+
+
+def get_category(code):
+    categories = ["Fail", "Average", "Good", "Excellent"]
+    return categories[code]
+
+
+students = {
+    "A": 35,
+    "B": 50,
+    "C": 70,
+    "D": 85,
+    "E": 30,
+    "F": 90
+}
+
+for name, marks in students.items():
+    code = classify_marks(marks)
+    print(f"Student {name} is classified as {get_category(code)} based on performance.")
