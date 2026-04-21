@@ -1,0 +1,17 @@
+def bed_status(total_beds, admissions, discharges):
+    net_changes = [a - d for a, d in zip(admissions, discharges)]
+    avg_change = sum(net_changes) / len(net_changes)
+
+    current_occupancy = sum(net_changes)
+
+    if current_occupancy > total_beds * 0.9:
+        status = "Critical Shortage"
+    elif current_occupancy > total_beds * 0.7:
+        status = "Limited"
+    else:
+        status = "Available"
+
+    print("Total Beds:", total_beds)
+    print("Average Daily Net Occupancy Increase:", int(avg_change))
+    print("Bed Availability Status:", status)
+
