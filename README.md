@@ -14,11 +14,33 @@ This Python program calculates the total grocery bill including discounts and ta
 🚀 Features
 
 Accepts multiple item prices
+
+
+
+
 Calculates total amount
+
+
+
+
 Applies discount based on total
+
+
+
+
 Adds tax to final amount
+
+
+
 Displays formatted bill summary
+
+
+
+
 Handles invalid inputs and limits
+
+
+
 
 
 
@@ -32,6 +54,9 @@ This is a Python program that analyzes hospital admissions and discharges to det
 🚀 Features
 
 Takes input for:
+
+
+
 Total number of beds
 Daily admissions
 Daily discharges
@@ -56,11 +81,26 @@ This is a simple Python program that classifies student performance based on the
 🚀 Features
 
 Takes input for multiple students
+
+
+
 Classifies performance into categories:
+
+
 Fail
+
+
 Average
+
+
 Good
+
+
+
 Excellent
+
+
+
 Outputs a clear message for each student
 Helps identify weak and high-performing students
 Easy to extend for ranking and grading
