@@ -1,0 +1,33 @@
+def grocery_bill():
+    n = int(input("Enter number of items: "))
+    
+    if n > 20:
+        print("Maximum items limit exceeded")
+        return
+
+    total = 0
+
+    for i in range(n):
+        price = float(input(f"Enter price of item {i+1}: "))
+        if price <= 0:
+            print("Invalid price")
+            return
+        total += price
+
+    discount = 0
+    if total > 200:
+        discount = total * 0.10  # 10% discount
+
+    total_after_discount = total - discount
+    tax = total_after_discount * 0.05
+    final_amount = total_after_discount + tax
+
+    print("\nBill Summary:")
+    print("Total Amount: ₹", total)
+    print("Discount Applied: ₹", round(discount, 2))
+    print("Tax Added: ₹", round(tax, 2))
+    print("Final Payable Amount: ₹", round(final_amount, 2))
+
+
+# Run
+grocery_bill()
