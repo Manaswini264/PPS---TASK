@@ -3,9 +3,9 @@
 
 This project consists of three independent Python-based applications designed to solve real-world problems in different domains:
 
-Hospital Bed Availability System
- Student Performance Analyzer
- Grocery Bill Estimator
+ 1.Hospital Bed Availability System
+ 2.Student Performance Analyzer
+ 3.Grocery Bill Estimator
 
 Each system focuses on automation, accuracy, and efficiency using simple logic and structured programming techniques.
 
